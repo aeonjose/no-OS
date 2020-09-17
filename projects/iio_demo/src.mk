@@ -3,10 +3,10 @@
 SRC_DIRS += $(PROJECT)/src
 SRC_DIRS += $(NO-OS)/iio/iio_demo
 
-SRC_DIRS += $(NO-OS)/network
-SRCS	 += $(NO-OS)/util/circular_buffer.c
-SRCS	 += $(PLATFORM_DRIVERS)/delay.c
-SRCS	 += $(PLATFORM_DRIVERS)/timer.c
+#SRC_DIRS += $(NO-OS)/network
+#SRCS	 += $(NO-OS)/util/circular_buffer.c
+#SRCS	 += $(PLATFORM_DRIVERS)/delay.c
+#SRCS	 += $(PLATFORM_DRIVERS)/timer.c
 
 DISABLE_SECURE_SOCKET=y
 
